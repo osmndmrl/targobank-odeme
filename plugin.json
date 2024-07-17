@@ -1,16 +1,15 @@
-
 {
   "name": "TARGOBANK Payment Plugin",
   "description": "TARGOBANK sales financing payment method for PlentyMarkets",
   "author": "Villastore",
   "version": "1.0.0",
   "pluginType": "payment",
-  "namespace": "Villastore\TARGOBANK",
+  "namespace": "Villastore\\TARGOBANK",
   "services": {
     "events": [
       {
-        "eventName": "Plenty\Modules\Order\Events\OrderWasCreated",
-        "class": "Villastore\TARGOBANK\Services\EventService",
+        "eventName": "Plenty\\Modules\\Order\\Events\\OrderWasCreated",
+        "class": "Villastore\\TARGOBANK\\Services\\EventService",
         "method": "handleOrderCreated"
       }
     ]

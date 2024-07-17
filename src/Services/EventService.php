@@ -22,7 +22,7 @@ class EventService
         $form .= '<input type="hidden" name="sessionID" value="' . $order->id . '">';
         $form .= '<input type="hidden" name="amount" value="' . $order->amounts[0]->invoiceTotal . '">';
         $form .= '<input type="hidden" name="dealerID" value="804625">';
-        $form .= '<input type="hidden" name="dealerText" value="https://www.yourshop.com/return">';
+        $form .= '<input type="hidden" name="dealerText" value="https://www.villamoebel.de/return">';
         $form .= '<input type="hidden" name="documentno" value="' . $order->id . '">';
         $form .= '<input type="submit" value="Başvur">';
         $form .= '</form>';

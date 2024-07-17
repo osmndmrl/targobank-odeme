@@ -14,4 +14,10 @@ class OrderService
         $order->status = $status;
         $order->save();
     }
+
+    public function getOrderById($orderId)
+    {
+        // Sipariş bilgilerini getir
+        return Order::find($orderId);
+    }
 }
